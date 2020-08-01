@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Erickson, Holly
-DSC650 WEEK 10
 
-1. 10.2 Programming Exercise: Fit a Binary Logistic Regression Model to a Dataset
+Fitting a Binary Logistic Regression Model to a Dataset
 
 1. Build a Classification Model
 

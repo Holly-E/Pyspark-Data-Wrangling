@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Erickson, Holly
-DSC650 WEEK 4
+
 """
 
 from pyspark.sql import SparkSession
@@ -9,7 +9,7 @@ spark = SparkSession.builder.appName("Week4").getOrCreate()
 
 #%%
 """
-1. As a first step, load both files into Spark and print the schemas
+1.Load both files into Spark and print the schemas
 Data located at https://github.com/bellevue-university/dsc650/tree/master/data
 """
 df_flights = spark.read.parquet("C:/Master/Semester 5/data/domestic-flights/flights.parquet")
